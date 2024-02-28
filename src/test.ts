@@ -1,7 +1,7 @@
 export default class Test {
   name: string;
 
-  constructor() {
+  constructor () {
     this.name = 'Test';
   }
 }
