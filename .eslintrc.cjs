@@ -8,6 +8,7 @@ module.exports = {
     'airbnb-base',
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
+    'prettier',
   ],
   plugins: ['@typescript-eslint'],
   overrides: [
@@ -15,9 +16,7 @@ module.exports = {
       env: {
         node: true,
       },
-      files: [
-        '.eslintrc.{js,cjs}',
-      ],
+      files: ['.eslintrc.{js,cjs}'],
       parserOptions: {
         sourceType: 'script',
       },
